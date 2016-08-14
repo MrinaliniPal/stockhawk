@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Mrinalinigalle\Documents\androidsdkwindows\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_e7bfe870bd0bbe3a384234dc82b6137b923f244b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\exploded-aar\net.simonvt.schematic\schematic\0.6.3\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f6f5730f19d22f177096c8d134d4892b0fbd631d">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\net.simonvt.schematic-schematic-0.6.3_daa81b3cbe10c54417df9bf0d35a4867595478ed.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-8.4.0_b84fa4b3d6b1af1e3c08b6fe3d6995efb94a01c0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\.gradle\caches\modules-2\files-2.1\net.simonvt.schematic\schematic-annotations\0.6.3\4df5a4bbbacf9ea3c4aebf7d3c61465afb648e36\schematic-annotations-0.6.3.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4df5a4bbbacf9ea3c4aebf7d3c61465afb648e36">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\schematic-annotations-0.6.3_18071369b6916c7e84d000c770bc31675d2a7695.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_e561ab253d41468ffde60944c7cf127625c71c18.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\okio-1.6.0_439e375105680cf8d3f7a79ccc32b05215195da7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\exploded-aar\com.melnykov\floatingactionbutton\1.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="65620ba5e576dcec2c86efa440b00d042a27383b">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\com.melnykov-floatingactionbutton-1.2.0_5620f9976572c002ffff75656417737eca2993bb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\exploded-aar\com.lsjwzh\materialloadingprogressbar\0.5.6-RELEASE\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="b7760c9799d4842e39492efb0957ed62e4c7c57a">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\com.lsjwzh-materialloadingprogressbar-0.5.6-RELEASE_227914498bdfc90fc7d30c473e8a24fa17ab458a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\library-2.4.0_2c0385fdb53112ccf3c032a818ee131e6bcee1a8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.1_318f531bd172ff3fdd61ae0b9201c9acc3ef64b2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="96ddb5868cb81a9c8d1e973df9c2d7356f304075">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_5b155ec5a1a58779ac1be2a663eb710d060bba8f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\exploded-aar\com.github.blackfizz\eazegraph\1.2.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="2584bbecc58c666b0e064ebce64f67a46bfa2aba">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\com.github.blackfizz-eazegraph-1.2.2_ac5ea287641028bcb43e7c92de07e257ad12abe9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\exploded-aar\com.github.afollestad.material-dialogs\core\0.8.5.7\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a94e3ac390a37f149a235f7f5e1b49b65151c0bf">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\com.github.afollestad.material-dialogs-core-0.8.5.7_0eac813a357fbc3d25aeafce34927ca31d40670d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\exploded-aar\me.zhanghai.android.materialprogressbar\library\1.1.5\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4a9f97c742d058ca55948643c06f447895a9af76">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\me.zhanghai.android.materialprogressbar-library-1.1.5_489c16f0be39f490d7427b9726a27a3af67c86a3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-measurement-8.4.0_63652d944d962e82eb2240400cd6b51bfcf6d44e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\exploded-aar\com.diogobernardino\williamchart\2.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="1f159979917aba68421fb945854049367d206410">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\com.diogobernardino-williamchart-2.2_0748fc9558c691b77a6f0c20098ede847383c519.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.1_2c5b7dfd540cc0aa242d6d06f9157b6c2e810bc0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\okhttp-2.5.0_516a93b1518a86df69e625c8866d2d7f72f6c1e8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_656b4db5a1a8c1fe300a5799bbd8a8c3a7806f81.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_c1988d46818ff2eb48fc809a4b22a54038c2b39a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="76a5c00b4301c2b151d6b9e0eb457fb6f8f780b2">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\instant-run_ef36d5a59569592c4bf02d22495cc9dcd6947794.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_cc7d1a97ec436ca231020e729048d830b144e45c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.1_084bf84906df571bde76524c980d9d57ce53b944.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.2.1_1ce2ef998a7ca1c7c8466efea71cee2758ccbf9a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.1_fcb13abb660d06e88e3455565ce6c461f10a962e.jar" />
+    </item>
+
+</items>
