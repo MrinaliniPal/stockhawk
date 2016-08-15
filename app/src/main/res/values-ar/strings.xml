@@ -17,6 +17,7 @@
   <string name="loading_failed">عفوا! حدث خطأ. تحقق من اتصال الإنترنت الخاص بك وحاول مرة أخرى</string>
   <string name="error">خطأ</string>
   <string name="empty_view">عرض فارغة</string>
+  <string name="stock_saved">يتم حفظ هذه الأسهم بالفعل!</string>
 
   <string name="company_name" translatable="false">GOOG</string>
   <string name="company_share_price"><xliff:g id="share_prices">1000.00</xliff:g></string>

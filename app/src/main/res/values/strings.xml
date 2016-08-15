@@ -17,6 +17,7 @@
   <string name="loading_failed">Oops! Something went wrong. Check your internet connection and try again</string>
   <string name="error">Error</string>
   <string name="empty_view">Empty view</string>
+  <string name="stock_saved">This stock is already saved!</string>
 
   <string name="company_name" translatable="false">GOOG</string>
   <string name="company_share_price"><xliff:g id="share_prices">1000.00</xliff:g></string>
