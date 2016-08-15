@@ -1,7 +1,8 @@
 <resources xmlns:xliff="http://schemas.android.com/tools">
-  <string name="app_name">Stock Hawk</string>
-  <string name="widget_title">Today\'s Market</string>
-  <string name="action_example">Example action</string>
+  <string name="app_name" translatable="false">Stock Hawk</string>
+  <string name="widget_title" translatable="false">Today\'s Market</string>
+  <string name="action_example" translatable="false">Example action</string>
+  <string name="title_activity_stock_detail" translatable="false">StockDetailActivity</string>
 
   <string name="action_settings">إعدادات</string>
   <string name="action_change_units">وحدات التغيير</string>
@@ -13,13 +14,19 @@
   <string name="network_toast">اه أوه! هذا التطبيق يتطلب اتصال بالإنترنت</string>
   <string name="empty_display">لا يوجد مخزون معلومات متوفرة</string>
   <string name="no_network">لا يوجد مخزون معلومات متوفرة نظرا للا اتصال الشبكة</string>
+  <string name="loading_failed">عفوا! حدث خطأ. تحقق من اتصال الإنترنت الخاص بك وحاول مرة أخرى</string>
+  <string name="error">خطأ</string>
+  <string name="empty_view">عرض فارغة</string>
 
-  <string name="company_name">GOOG</string>
+  <string name="company_name" translatable="false">GOOG</string>
   <string name="company_share_price"><xliff:g id="share_prices">1000.00</xliff:g></string>
   <string name="company_share_increase"><xliff:g id="share_increase">100%</xliff:g></string>
 
   <string name="string_tag">بطاقة</string>
   <string name="error_no_symbol">خطأ! لم يتم العثور على رمز</string>
   <string name="string_symbol_found">نجاح! وأضاف رمز جديد</string>
+
+  <string name="string_symbol"  translatable="false">symbol</string>
+  <string name="string_set_background_resource" translatable="false">setBackgroundResource</string>
 
 </resources>

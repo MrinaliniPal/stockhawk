@@ -16,7 +16,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Stock hawk"
+            android:text="@string/app_name"
             android:textColor="@android:color/white"
             android:textSize="@dimen/md_title_textsize"
             android:layout_gravity="center"/>
@@ -39,7 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Empty View"
+            android:text="@string/empty_view"
             android:textColor="#ffffff"
             android:textSize="20sp"
             android:visibility="gone" />
