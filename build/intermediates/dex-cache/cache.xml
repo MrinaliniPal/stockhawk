@@ -75,7 +75,7 @@
         jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.1"
-        sha1="96ddb5868cb81a9c8d1e973df9c2d7356f304075">
+        sha1="42b74c0491ff4e10d33630fa7287e635b87f6ce4">
         <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_5b155ec5a1a58779ac1be2a663eb710d060bba8f.jar" />
     </item>
     <item
@@ -145,7 +145,7 @@
         jar="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.1"
-        sha1="76a5c00b4301c2b151d6b9e0eb457fb6f8f780b2">
+        sha1="49cee1d09154e21f97a82947c71edb07658c53e4">
         <dex dex="C:\Users\Mrinalini galle\Videos\stockhawkP3-master\app\build\intermediates\pre-dexed\debug\instant-run_ef36d5a59569592c4bf02d22495cc9dcd6947794.jar" />
     </item>
     <item

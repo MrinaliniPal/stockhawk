@@ -15,6 +15,7 @@ import android.os.Handler;
 import android.os.HandlerThread;
 import android.support.annotation.NonNull;
 import android.support.v4.app.TaskStackBuilder;
+import android.support.v7.widget.RecyclerView;
 import android.widget.RemoteViews;
 
 import com.sam_chordas.android.stockhawk.R;
@@ -27,55 +28,69 @@ import com.sam_chordas.android.stockhawk.ui.StockDetailActivity;
  */
 public class QuoteWidgetProvider extends AppWidgetProvider {
 
+    public static String CLICK_ACTION = "com.sam_chordas.android.quotelistwidget.CLICK";
+
+    private static Handler sWorkerQueue;
+    private static QuoteDataProviderObserver sDataObserver;
+
+    public QuoteWidgetProvider() {
+        HandlerThread sWorkerThread = new HandlerThread("QuoteWidgetProvider-worker");
+        sWorkerThread.start();
+        sWorkerQueue = new Handler(sWorkerThread.getLooper());
+    }
+
     @Override
-    public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
-        for (int appWidgetId : appWidgetIds) {
-            RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.widget_collection);
-
-            // Create intent to launch MainActivity
-            Intent intent = new Intent(context, MyStocksActivity.class);
-            PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, 0);
-            views.setOnClickPendingIntent(R.id.widget, pendingIntent);
-
-            // Set up collection
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
-                setRemoteAdapter(context, views);
-            } else {
-                setRemoteAdapterV11(context, views);
-            }
-
-            // Set up collection items
-            Intent clickIntentTemplate = new Intent(context, MyStocksActivity.class);
-            PendingIntent clickPendingIntentTemplate = TaskStackBuilder.create(context)
-                    .addNextIntentWithParentStack(clickIntentTemplate)
-                    .getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT);
-            views.setPendingIntentTemplate(R.id.widget_list, clickPendingIntentTemplate);
-            appWidgetManager.updateAppWidget(appWidgetId, views);
+    public void onEnabled(Context context) {
+        final ContentResolver r = context.getContentResolver();
+        if (sDataObserver == null) {
+            final AppWidgetManager mgr = AppWidgetManager.getInstance(context);
+            final ComponentName cn = new ComponentName(context, QuoteWidgetProvider.class);
+            sDataObserver = new QuoteDataProviderObserver(mgr, cn, sWorkerQueue);
+            r.registerContentObserver(QuoteProvider.Quotes.CONTENT_URI, true, sDataObserver);
         }
     }
 
-    /**
-     * Sets the remote adapter used to fill in the list items
-     *
-     * @param context the context used to launch the intent
-     * @param views RemoteViews to set the RemoteAdapter
-     */
-    @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
-    private void setRemoteAdapter(Context context, @NonNull final RemoteViews views) {
-        views.setRemoteAdapter(R.id.widget_list,
-                new Intent(context, QuoteWidgetRemoteViewsService.class));
+    @Override
+    public void onReceive(Context ctx, Intent intent) {
+        final String action = intent.getAction();
+        if (action.equals(CLICK_ACTION)) {
+            final String symbol = intent.getStringExtra("symbol");
+
+            Intent i = new Intent(ctx, StockDetailActivity.class);
+            i.setFlags (Intent.FLAG_ACTIVITY_NEW_TASK);
+            i.putExtra("symbol", symbol);
+            ctx.startActivity(i);
+        }
+        super.onReceive(ctx, intent);
     }
 
-    /**
-     * Sets the remote adapter used to fill in the list items
-     *
-     * @param context the context to launch the intent
-     * @param views RemoteViews to set the RemoteAdapter
-     */
-    @SuppressWarnings("deprecation")
-    private void setRemoteAdapterV11(Context context, @NonNull final RemoteViews views) {
-        views.setRemoteAdapter(0, R.id.widget_list,
-                new Intent(context, QuoteWidgetRemoteViewsService.class));
+    private RemoteViews buildLayout(Context context, int appWidgetId) {
+        RemoteViews rv;
+
+        final Intent intent = new Intent(context, QuoteWidgetRemoteViewsService.class);
+        intent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
+        intent.setData(Uri.parse(intent.toUri(Intent.URI_INTENT_SCHEME)));
+        rv = new RemoteViews(context.getPackageName(), R.layout.widget_collection);
+        rv.setRemoteAdapter(R.id.listViewWidget, intent);
+
+        final Intent onClickIntent = new Intent(context, QuoteWidgetProvider.class);
+        onClickIntent.setAction(QuoteWidgetProvider.CLICK_ACTION);
+        onClickIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
+        onClickIntent.setData(Uri.parse(onClickIntent.toUri(Intent.URI_INTENT_SCHEME)));
+        final PendingIntent onClickPendingIntent = PendingIntent.getBroadcast(context, 0,
+                onClickIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+        rv.setPendingIntentTemplate(R.id.listViewWidget, onClickPendingIntent);
+
+        return rv;
     }
 
+    @Override
+    public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
+        // Update each of the widgets with the remote adapter
+        for (int appWidgetId : appWidgetIds) {
+            RemoteViews layout = buildLayout(context, appWidgetId);
+            appWidgetManager.updateAppWidget(appWidgetId, layout);
+        }
+        super.onUpdate(context, appWidgetManager, appWidgetIds);
+    }
 }
